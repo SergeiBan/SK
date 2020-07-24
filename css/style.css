@@ -184,13 +184,70 @@ a {
   line-height: 56px;
 }
 
+.chapters {
+  margin-left: 100px;
+  margin-bottom: 350px;
+}
+
 .chapter {
+  position: relative;
   display: inline-block;
   width: 483px;
-  height: 508px;
+  min-height: 508px;
+  vertical-align: top;
+  margin: 0 50px 50px 0;
+  padding-top: 250px;
   filter: drop-shadow(-3px 1px 20px #535353);
+}
+
+.chapter-section__header {
+  margin-left: 100px;
+  margin-bottom: 25px;
+}
+
+.chapter-description__list {
+  margin-left: 100px;
+  list-style: none;
+}
+
+.chapter-description__list-element {
+  margin-bottom: 20px;
 }
 
 .chapter-1 {
   background: url(../img/photo1.jpg) no-repeat center top;
+  background-size: contain;
+}
+
+.chapter-2 {
+  background: url(../img/photo2.jpg) no-repeat center top;
+}
+
+.chapter-3 {
+  background: url(../img/photo3.jpg) no-repeat center top;
+}
+
+.chapter-4 {
+  background: url(../img/photo4.jpg) no-repeat center top;
+}
+
+.chapter-number {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.modules-button__more {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  color: #2f1ce4;
+  border: 1px solid #2f1ce4;
+  background: white;
+  margin-top: 30px;
+}
+
+.body-modules {
+  background: url(../img/Фигура\ 1.png) no-repeat center bottom;
+  background-size: contain;
 }
